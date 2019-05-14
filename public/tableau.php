@@ -1,5 +1,5 @@
 <?php 
-    require ("inc/header.php");
+    require ("../inc/header.php");
 ?>
 
             <?php 
@@ -50,7 +50,7 @@
             <?php foreach ($products as $product) : ?>
 
             <div class="card col-4">
-            <img src="img/uploads/<?php echo $product['image_name'] ?>" class="card-img-top" alt="image_name">
+            <img src="../img/uploads/<?php echo $product['image_name'] ?>" class="card-img-top" alt="image_name">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $product['name']; ?></h5>
                 <p class="card-text"><?php echo $product['description']; ?></p>
@@ -64,6 +64,8 @@
     </section>
 
 </main>
-<?php
-    require ("inc/footer.php");
+
+
+<?php 
+    require ("../inc/footer.php");
 ?>

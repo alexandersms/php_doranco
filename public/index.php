@@ -1,5 +1,5 @@
 <?php 
-    require ("inc/header.php");
+    require ("../inc/header.php");
 ?>
     <section class="container">
         <h1>Ma page</h1>
@@ -184,7 +184,7 @@
 
 
     <?php 
-    require ("inc/footer.php");
+    require ("../inc/footer.php");
 ?>
 
 

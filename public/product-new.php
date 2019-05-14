@@ -1,5 +1,5 @@
 <?php 
-    require ("inc/header.php");
+    require ("../inc/header.php");
     var_dump($_GET);
     var_dump($_POST);
 ?>
@@ -43,5 +43,6 @@
 </main>
 
 <?php 
-    require ("inc/footer.php");
+    require ("../inc/footer.php");
+   
 ?>
