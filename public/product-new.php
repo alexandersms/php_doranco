@@ -1,5 +1,5 @@
 <?php 
-    require ("../inc/header.php");
+    require ("/inc/header.php");
     var_dump($_GET);
     var_dump($_POST);
 ?>
@@ -32,10 +32,10 @@
         </div>
         <div class="form-group">
             <label for="exampleFormControlInput1">Nombre de vues</label>
-            <input type="number" step="0.01" class="form-control" id="exampleFormControlInput1">
+            <input type="number" min="0" class="form-control" id="exampleFormControlInput1">
         </div>
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <input type="submit" value="Créer le produit" class="btn btn-outline-success">
     </form>
 
 
@@ -43,6 +43,6 @@
 </main>
 
 <?php 
-    require ("../inc/footer.php");
+    require ("/inc/footer.php");
    
 ?>
